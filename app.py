@@ -404,7 +404,7 @@ def admin_panel():
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Red Maker IoT - Panel de Control</title>
+        <title>Servicio IoT Marthink - Panel de Control</title>
         <style>
             * { margin: 0; padding: 0; box-sizing: border-box; }
             body { 
@@ -783,4 +783,5 @@ if __name__ == "__main__":
     print("\n" + "="*60 + "\n")
     
     # Iniciar servidor
+
     uvicorn.run(app, host="0.0.0.0", port=8000)
